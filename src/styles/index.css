@@ -1,5 +1,14 @@
+:root {
+  --dark-color: #252c32;
+  --light-color: #ffffff;
+  --first-color: var(--dark-color);
+  --second-color: var(--light-color);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--first-color);
+  color: var(--second-color);
 }
