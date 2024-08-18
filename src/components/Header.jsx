@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import "../styles/header.css"
 
 function Header() {
 
@@ -18,12 +19,11 @@ function Header() {
 
     return (
         <header>
-            <p>Salut, c'est la v1 de mon portfolio</p>
-            <br />
-            <br />
-            <br />
-            <br />
-            <button onClick={changeTheme}>{nightTheme ? <p>Jour</p> : <p>Nuit</p>}</button>
+            <div className="topHeader">
+                <h1>QUENTIN RAMPTEAU</h1>
+                <button className="nightModeButton" onClick={changeTheme}>{nightTheme ? '🌞' : '🌙'}</button>
+            </div>
+            <p>DÉVELOPPEUR WEB EN RECHERCHE D'ALTERNANCE</p>
         </header>
     )
 }

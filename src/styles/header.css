@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px 30px;
+    width: 100%;
+}
+
+.nightModeButton {
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+}
