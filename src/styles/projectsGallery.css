@@ -1,0 +1,29 @@
+.projectsGalleryIcon {
+    margin: 0 10px 0 10px;
+    height: 60px;
+    fill: var(--second-color);
+}
+
+.projectImg {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    border: solid 2px var(--fourth-color);
+}
+
+.projectsGallery {
+    margin: 30px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+
+.projectsGalleryDescription {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.projectsGalleryH3 {
+    text-align: center;
+}
